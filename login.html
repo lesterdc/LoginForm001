@@ -1,0 +1,51 @@
+<html>
+   <head>
+      <link rel="stylesheet" href="css/login_page.css">
+   </head>
+   <body>
+      <div class="container" id="container">
+         <div class="form-container sign-up-container">
+            <form action="#">
+               <h1 id="h1-initial">Crea una cuenta</h1>
+               <input type="text" placeholder="Usuario" />
+               <input type="text" placeholder="Correo electronico" />
+               <input type="password" placeholder="Password" />
+               <input type="password" placeholder="Repita Password">
+               <input type="text" placeholder="Nombre">
+               <input type="text" placeholder="Apellido">
+               <button>Sign Up</button>
+            </form>
+         </div>
+         <div class="form-container sign-in-container">
+            <form action="#">
+               <img id="logo_astinave" src="./img/logo_principal.png">
+               <h2 id="h1-initial">Sign in</h2>
+               <input type="text" placeholder="Usuario" />
+               <input type="password" placeholder="Password" />
+               <a href="./remember.html">Olvidaste tu password?</a>
+               <button>Sign In</button>
+            </form>
+         </div>
+         <div class="overlay-container">
+            <div class="overlay">
+               <div class="overlay-panel overlay-left">
+                  <!-- Now it's unnecessary have this text
+                  <h1>Hola de nuevo!</h1>
+                  <p>Si ya enviaste tu solicitud y/o ya fuiste aceptado, inicia sesion</p>
+                  -->
+                  <button class="ghost" id="signIn"><!--This is the button Sign in--></button>
+               </div>
+               <div class="overlay-panel overlay-right">
+                  <!--Now it's unnecessary have this text
+                  <h1>Bienvenido!</h1>
+                  <p>Ingresa tus datos hasta que el administrador acepte tu acceso</p>
+                  -->
+                  <button class="ghost" id="signUp"><!--This is the button SignUp--></button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--Footer space is optional-->
+   </body>
+   <script src="js/login.js"></script>
+</html>
